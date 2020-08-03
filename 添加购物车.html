@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加购物车</title>
+    <a href="购物车页面.html"></a>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #di{
+            width: 500px;
+            height: 800px;
+            border: solid 3px #9A9A9A;
+            margin: auto;
+        }
+        #di .a{
+            width: 500px;
+            height: 400px;
+
+        }
+        #di .a1{
+            width: 500px;
+            height: 100px;
+
+            margin-left: 8px;
+        }
+        #di .a11{
+            color: red;
+
+        }
+        #di .a12{
+            color: black;
+            font-size: 15px;
+        }
+        #di .a13{
+            color: cornflowerblue;
+        }
+        #di .a2{
+            width: 500px;
+            height: 50px;
+
+            display: flex;
+        }
+        #di .a21{
+            font-size: 18px;
+            color: #DE4197;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        #di .a22{
+            font-size: 17px;
+            color: #678DB3;
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+
+        #di .a3{
+            width: 500px;
+            height: 250px;
+
+
+        }
+        #di .a31{
+            color: black;
+            font-size: 20px;
+        }
+        #di .a33{
+            color: red;
+            font-size: 15px;
+            text-align: right;
+            margin-right: 10px;
+
+        }
+        #di .a32{
+            display: flex;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+
+        #di .b{
+            width: 500px;
+            height: 400px;
+
+        }
+        #di .b1{
+            width: 500px;
+            height: 200px;
+
+        }
+        #di .b11{
+            width:500px;
+            height:65px;
+
+            display: flex;
+        }
+        #di .b111{
+            color:black;
+            margin-top: 20px;
+        }
+        #di .b112{
+            color: #9A9A9A;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+        #di .b113{
+            color: #9A9A9A;
+            margin-left: 180px;
+            margin-top: 20px;
+        }
+        #di .b12{
+            width:500px;
+            height:65px;
+
+            display: flex;
+
+        }
+        #di .b121{
+            color:black;
+            margin-top: 20px;
+        }
+        #di .b122{
+            color: #9A9A9A;
+            margin-left: 65px;
+            margin-top: 20px;
+        }
+        #di .b13{
+            width:500px;
+            height:65px;
+
+            display: flex;
+        }
+        #di .b131{
+            color:black;
+            margin-top: 20px;
+        }
+        #di .b132{
+            color: #9A9A9A;
+            margin-left: 80px;
+            margin-top: 20px;
+        }
+        #di .b2{
+            width: 500px;
+            height: 200px;
+
+        }
+        #di .b21{
+            width: 500px;
+            height: 100px;
+            color: #9A9A9A;
+
+
+        }
+        #di .b211{
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        #di .b212{
+            margin-left: 200px;
+            margin-top: -42px;
+        }
+        #di .b22{
+            width: 500px;
+            height: 100px;
+
+        }
+        #di .b221{
+            width: 500px;
+            height: 64px;
+            text-align: center;
+            color: white;
+            font-size: 35px;
+            background-color: #DE3D96;
+            border-radius: 25px;
+            position:fixed;
+            top: 85%;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="di">
+
+        <div class="a">
+            <div class="a1">
+                <br>
+                <div class="a11">￥249 4.9折</div>
+
+                <div class="a12"><strong>时尚休闲百搭男士T恤</strong></div>
+
+                <div class="a13">Calvin Klein</div>
+            </div><hr style="border: solid 2px silver">
+            <div class="a2">
+                <div class="a21">正品保证</div>
+                <div class="a22">100%正品·专业鉴定·正品险</div>
+            </div><hr style="border: solid 2px silver">
+            <div class="a3">
+                <div class="a31">颜色</div>
+                <div class="a33">查看尺表码</div>
+                <div class="a32">
+                  <div class="a321">
+                      <input type="button" style="width: 110px; height: 50px " value="黄色" >
+                      <input type="button" style="width: 110px; height: 50px " value="白色">
+                      <input type="button" style="width: 110px; height: 50px " value="黑色">
+                      <input type="button" style="width: 110px; height: 50px " value="蓝色">
+                      <input type="button" style="width: 110px; height: 50px " value="红色">
+                      <input type="button" style="width: 110px; height: 50px " value="粉色">
+                  </div><br>
+                  <div class="a322">
+                      <input type="button" style="width: 110px; height: 50px " value="S" >
+                      <input type="button" style="width: 110px; height: 50px " value="M">
+                      <input type="button" style="width: 110px; height: 50px " value="L">
+                      <input type="button" style="width: 110px; height: 50px " value="XL">
+                      <input type="button" style="width: 110px; height: 50px " value="XXL">
+                      <input type="button" style="width: 110px; height: 50px " value="XXXL">
+                  </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="b">
+            <div class="b1">
+                <hr style="border: solid 2px silver">
+                <div class="b11">
+
+                    <div class="b111"><strong>商品详情</strong></div>
+                    <div class="b112">风格、适应场景、弹性等</div>
+                    <div class="b113">…</div>
+                </div>
+                <hr style="border: solid 2px silver">
+                <div class="b12">
+                    <div class="b121"><strong>配送至</strong></div>
+                    <div class="b122">请选择配送地址</div>
+                </div>
+                <hr style="border: solid 2px silver">
+                <div class="b13">
+                    <div class="b131"><strong>运费</strong></div>
+                    <div class="b132">新会员专享首单满38元免邮（限唯品自营商品）</div>
+                </div>
+                <hr style="border: solid 2px silver">
+            </div>
+            <div class="b2">
+                <div class="b21">
+                   <div class="b211">
+                       <div>⚪唯品会发货及售后</div>
+                       <div>⚪顺丰配送</div>
+                   </div>
+                    <div class="b212">
+                        <div>⚪7天无理由退换</div>
+                        <div>⚪退货免邮</div>
+                    </div>
+
+                </div>
+                <div class="b22">
+                    <div class="b221">
+                        <a href="购物车页面.html">加入购物车</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

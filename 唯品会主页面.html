@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>唯品会</title>
+    <link href="css" rel="stylesheet" type="text/css">
+    <meta content="initial-scale=1,user-scalable=no,minimum-scale=1,maximum-scale=1,width=device-width,minimal-ui" name="viewport">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #div{
+            width: 430px;
+            height: 2650px;
+            border:  solid 1px red;
+            background-color: white;
+
+        }
+        #div li{
+            width: 98%;
+            height: 270px;
+            border: solid 1px white;
+            margin: auto;
+            list-style: none;
+            margin-top: 5px;
+            box-shadow: 0 3px 9px black, inset 0 0 9px white ;
+
+
+        }
+        #div li:nth-child(1){
+            height: 90px;
+            width: 420px;
+            background-color: white;
+            list-style:none;
+            margin-left: 3px;
+            margin-top: 0;
+            background-color: bisque;
+            position: fixed;
+
+
+        }
+        #div li:nth-child(2){
+            margin-top: 90px;
+        }
+        #div li:nth-child(3){
+            margin-top: 0;
+            background-color: #9345F3;
+        }
+        #div li .a{
+            width: 65px;
+            height: 35px;
+            display: inline-block;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        #div .a h4,#di .fc h4{
+            margin-top: 3px;
+            text-align: center;
+            background-color: cornsilk;
+            color: red;
+        }
+        #div li img{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+        }
+        #div li .b{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            justify-content: space-between;
+
+        }
+        #div li .bb{
+            width: 95px;
+            height: 110px;
+            display: inline-block;
+            text-align: center;
+        }
+        #div .b img{
+            width: 75%;
+            height: 70%;
+            background-color: white;
+        /border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            text-align: center;
+            display: flex;
+            margin: auto;
+            margin-top: 5px;
+        }
+        #div .b span{
+            color: white;
+        }
+        #div .sp{
+            width: 40px;
+            height: 50px;
+            display: inline-block;
+            margin-left: 20px;
+            bottom: 0;
+        }
+        #div .c{
+            background-image: url("imgs1/a1.png");
+            background-size: 100% 100%;
+        }
+        #div .c .ca{
+            width: 115px;
+            height: 175px;
+            display: inline-block;
+            margin-top: 87px;
+            margin-left: 15px;
+        }
+        #div .d{
+            background-image: url("imgs1/a2.jpg");
+            background-size: 100% 100%;
+        }
+        #div .d .da{
+            float: right;
+            margin-top: 25px;
+            margin-right: 20px;
+        }
+        #div .d .db{
+            width: 98%;
+            height: 210px;
+            margin: auto;
+            margin-top: 55px;
+            text-align: center;
+        }
+        #div .db .dc{
+            width: 93px;
+            height: 200px;
+            display: inline-block;
+            margin-left: 3px;
+        }
+        #div .dc img{
+            height: 145px;
+        }
+        #div .dc h4{
+            color: red;
+        }
+        #div .e{
+            background-image: url("imgs1/a3.jpg");
+            background-size: 100% 100%;
+        }
+        #div .e .ea{
+            float: right;
+            margin-top: 27px;
+            font-size: 14px;
+            margin-right: 11px;
+        }
+        #div .e .eb{
+            width: 98%;
+            height: 200px;
+            margin: auto;
+            margin-top: 60px;
+        }
+        #div .e .ee{
+            width: 130px;
+            height: 195px;
+            display: inline-block;
+            margin-left: 2px;
+        }
+        #div .f{
+            background-image: url("imgs1/a4.jpg");
+            background-size: 100% 100%;
+        }
+        #div .f .fa{
+            float: right;
+            margin-top: 50px;
+            font-size: 14px;
+            margin-right: 11px;
+        }
+        #div .f .fe{
+            margin-left: 115px;
+            margin-top: 45px;
+        }
+        #div .f .fb{
+            width: 98%;
+            height: 170px;
+            margin: auto;
+            margin-top: 20px;
+        }
+        #div .f .fc{
+            width: 90px;
+            height: 100px;
+            display: inline-block;
+            margin-left: 6px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        #div .fc p{
+            width: 70px;
+            height: 20px;
+            text-align: center;
+            background-color: #E7EAED;
+            margin: auto;
+        }
+        #div li:nth-child(8){
+            height: 65px;
+            margin-top: 0px;
+        }
+        #div .g{
+            width: 100%;
+            height: 70%;
+        }
+        #div .g1{
+            margin-left: 10px;
+            margin-top: 15px;
+            font-size: 20px;
+        }
+        #div .g2{
+            float: right;
+            margin-right: 10px;
+        }
+        #div .g3{
+            margin-top: 10px;
+            margin-left: 220px;
+            font-size: 13px;
+            background-color: darkseagreen;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+<div id="div">
+    <li>
+        <div>
+            <a style="margin-left: 10px; height: 50px;width: 50px" href="唯品会登录.html"><button>登录</button></a>
+            <input type="text" placeholder="大家正在搜索：苹果11" style=" height: 30px;width: 250px;margin-left: 30px;margin-top: 10px">
+            <div class="sp">
+                <a href="唯品会分类页面.html" ><span><svg  xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 1024 1024" t="1595669168485" p-id="2481" version="1.1"><path d="M 402.31 162.08 c 8.82 0 16 7.18 16 16 v 240 h -240 c -8.82 0 -16 -7.18 -16 -16 v -224 c 0 -8.82 7.18 -16 16 -16 h 224 m 0 -64 h -224 c -44.18 0 -80 35.82 -80 80 v 224 c 0 44.18 35.82 80 80 80 h 304 v -304 c 0 -44.19 -35.82 -80 -80 -80 Z M 732 115.61 c 3.02 0 7.44 0.81 11.31 4.69 L 901.7 278.69 c 6.24 6.24 6.24 16.39 0 22.63 L 743.31 459.71 c -3.87 3.87 -8.29 4.69 -11.31 4.69 s -7.44 -0.81 -11.31 -4.69 l -158.4 -158.4 c -6.24 -6.24 -6.24 -16.39 0 -22.63 l 158.39 -158.39 c 3.88 -3.87 8.3 -4.68 11.32 -4.68 m 0 -64 c -20.47 0 -40.95 7.81 -56.57 23.43 L 517.04 233.43 c -31.24 31.24 -31.24 81.89 0 113.14 l 158.39 158.39 c 15.62 15.62 36.09 23.43 56.57 23.43 s 40.95 -7.81 56.57 -23.43 l 158.39 -158.39 c 31.24 -31.24 31.24 -81.89 0 -113.14 L 788.57 75.04 c -15.62 -15.62 -36.1 -23.43 -56.57 -23.43 Z M 418.31 607.62 v 240 c 0 8.82 -7.18 16 -16 16 h -224 c -8.82 0 -16 -7.18 -16 -16 v -224 c 0 -8.82 7.18 -16 16 -16 h 240 m 64 -64 h -304 c -44.18 0 -80 35.82 -80 80 v 224 c 0 44.18 35.82 80 80 80 h 224 c 44.18 0 80 -35.82 80 -80 v -304 Z M 844 608 c 8.82 0 16 7.18 16 16 v 224 c 0 8.82 -7.18 16 -16 16 H 620 c -8.82 0 -16 -7.18 -16 -16 V 608 h 240 m 0 -64 H 540 v 304 c 0 44.18 35.82 80 80 80 h 224 c 44.18 0 80 -35.82 80 -80 V 624 c 0 -44.18 -35.82 -80 -80 -80 Z" p-id="2482" /></svg></span></a>
+            </div>
+        </div>
+        <div class="a"><h4>今日推荐</h4></div>
+        <div class="a"><h4>初夏新装</h4></div>
+        <div class="a"><h4>最后疯抢</h4></div>
+        <div class="a"><h4>唯品快抢</h4></div>
+        <div class="a"><h4>品牌清仓</h4></div>
+    </li>
+    <li><img src="imgs1/a5.jpg"></li>
+    <li>
+        <div><img src="imgs1/a6.jpg"></div>
+        <div class="b">
+            <div class="bb"><a href="商品详情.html"><img src="imgs1/a7.webp"><span>女装</span></a></div>
+            <div class="bb"><img src="imgs1/a8.webp"><span>男装</span></div>
+            <div class="bb"><img src="imgs1/a9.webp"><span>鞋包</span></div>
+            <div class="bb"><img src="imgs1/b1.webp"><span>夏装馆</span></div>
+            <div class="bb"><img src="imgs1/drgd.png"><span>运动鞋</span></div>
+            <div class="bb"><img src="imgs1/b2.webp"><span>母婴童装</span></div>
+            <div class="bb"><img src="imgs1/b3.webp"><span>美妆个护</span></div>
+            <div class="bb"><img src="imgs1/b4.webp"><span>精品手表</span></div>
+        </div>
+    </li>
+    <li class="c">
+        <div class="ca"><img src="imgs1/b5.png"></div>
+        <div class="ca"><img src="imgs1/b6.png"></div>
+        <div class="ca"><img src="imgs1/b7.png"></div>
+    </li>
+    <li class="d">
+        <div class="da"><span>精选爆款 已售520+万件</span></div>
+        <div class="db">
+            <div class="dc"><img src="imgs1/b8.jpg">
+                <div><p>蓝月亮</p></div>
+                <h4>￥89</h4>
+            </div>
+            <div class="dc"><img src="imgs1/b9.jpg">
+                <div><p>薇婷</p></div>
+                <h4>￥69</h4>
+            </div>
+            <div class="dc"><img src="imgs1/c1.jpg">
+                <div><p>四件套</p></div>
+                <h4>￥109</h4>
+            </div>
+            <div class="dc"><img src="imgs1/c3.jpg">
+                <div><p>网红水杯</p></div>
+                <h4>￥39</h4>
+            </div>
+        </div>
+    </li>
+    <li class="e">
+        <div class="ea"><span>521+品牌正在疯抢</span></div>
+        <div class="eb">
+            <div class="ee">
+                <img src="imgs1/c2.jpg" style=" width: 100%;height: 60%">
+                <img src="imgs1/c6.png" style=" width: 100px;height: 40px;margin-left: 15px">
+                <img src="imgs1/d4.png" style=" width: 100%;height: 30px">
+            </div>
+            <div class="ee">
+                <img src="imgs1/c5.jpg" style=" width: 100%;height: 60%">
+                <img src="imgs1/d3.png" style=" width: 100px;height: 40px;margin-left: 15px">
+                <img src="imgs1/d2.png" style=" width: 100%;height: 30px">
+            </div>
+            <div class="ee">
+                <img src="imgs1/c4.jpg" style=" width: 100%;height: 60%">
+                <img src="imgs1/c7.png" style=" width: 100px;height: 40px;margin-left: 15px">
+                <img src="imgs1/d1.png" style=" width: 100%;height: 30px">
+            </div>
+        </div>
+    </li>
+    <li class="f">
+        <div class="fa"><span>极致性价比好物大搜罗</span></div>
+        <div class="fe"><img src="imgs1/e4.gif" style="width: 60px" height="18px"></div>
+        <div class="fb">
+
+            <div class="fc">
+                <img src="imgs1/e1.jpg">
+                <p>米可芭纳</p>
+                <h4>￥43</h4>
+            </div>
+            <div class="fc">
+                <img src="imgs1/e2.jpg">
+                <p>安奈儿</p>
+                <h4>￥56</h4>
+            </div>
+            <div class="fc">
+                <img src="imgs1/e3.jpg">
+                <p>杉杉</p>
+                <h4>￥79</h4>
+            </div>
+            <div class="fc">
+                <img src="imgs1/e5.jpg">
+                <p>真维斯</p>
+                <h4>￥45</h4>
+            </div>
+        </div>
+    </li>
+    <li>
+        <img src="imgs1/e6.jpg">
+    </li>
+    <li>
+        <img src="imgs1/e6.webp">
+    </li>
+    <li>
+        <img src="imgs1/e7.webp">
+    </li>
+    <li>
+        <div class="g"><img src="imgs1/c9.jpg"></div>
+        <div class="g1"><span>商务时装VIP大牌日</span></div>
+        <div class="g2"><span>剩1天</span></div>
+        <div class="g3"><span>3折起</span></div>
+    </li>
+
+</div>
+
+</body>
+</html>
